@@ -12,8 +12,10 @@ black=Color(0x000000,1.0)
 
 tline=LineStyle(1, black)
 rectangle=RectangleAsset(50,50,tline,red)
+circle=CircleAsset(30,tline,green)
 
-Sprite(rectangle)
+Sprite(rectangle,(80,70))
+Sprite(circle,(80,60))
 
 myapp = App()
 myapp.run()
